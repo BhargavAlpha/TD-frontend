@@ -1,0 +1,99 @@
+.scope-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: #7750BC;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+.scopebox-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.scopebox{
+    background-color: #F1D7E7;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 15rem;
+}
+.scopebox p{
+    text-align: left;
+    margin: 0;
+    font-size: 0.8rem;
+}
+.scopebox p:nth-child(1){
+    font-weight: bold;
+    font-size: 1rem;
+}
+.scopebox p:nth-child(2){
+    font-weight: 550;
+}
+.highlights-container{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.highlightbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 8rem;
+}
+.highlightbox p{
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: center;
+    color:#997CBB;
+    font-weight: bold;
+}
+.roadmap{
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.applyBtn{
+    margin-top: 2rem;
+    background-color: #800080;
+    color: white;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    
+    .highlightbox{
+        width: 30%
+    }
+    .roadmap{
+        width: 80%;
+    }
+    .scopebox{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 480px){
+    .highlightbox{
+        width: 30%;
+    }
+    
+}
+    
