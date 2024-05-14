@@ -42,9 +42,9 @@ function Hero() {
         <div className="seal-container">
            <p >India’s 1st Stipend Guranteed Internship Programme</p>
            <button className="applyBtn">Apply now for ₹2999</button>
-           <img src="../../public/images/GURANTEE SEAL.png" className="seal" alt=""></img>
+           <img src="../../public/images/seal.png" className="seal" alt=""></img>
       </div>
-      <div className="promise-text"><p>We at Tutedude, are helping our learners get the max value while acquiring the new valuable skills with our new <h4>VALUE GUARANTEED INETERNSHIP PROGRAMME</h4></p></div>
+      <div className="promise-text"><p>We at Tutedude, are helping our learners get the max value while acquiring the new valuable skills with our new </p><h4>VALUE GUARANTEED INETERNSHIP PROGRAMME</h4></div>
     </div>
   </div>
   );

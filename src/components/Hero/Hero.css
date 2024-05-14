@@ -5,7 +5,7 @@
 }
 
 .hero-top{
-    background-image: url('../../public/images/HERO BACKGROUND IMAGE.png');
+    background-image: url('../../public/images/herobackground.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,6 +110,9 @@ h1{
     padding-right: 10%;
     font-size: 1.2rem;
     text-align: center;
+}
+.promise-text p{
+    margin: 0;
 }
 .promise-text h4{
     margin: 0;
