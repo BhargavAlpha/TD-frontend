@@ -6,11 +6,11 @@ function Scope() {
   const setImageBasedOnScreenSize = () => {
     const screenSize = window.innerWidth;
     if (screenSize > 768) {
-      setRoadmap("../../public/images/learnmax.png");
+      setRoadmap("../../../public/images/learnmax.png");
     } else if (screenSize > 480) {
-      setRoadmap("../../public/images/learnmin.png");
+      setRoadmap("../../../public/images/learnmin.png");
     } else {
-      setRoadmap("../../public/images/learnmin.png");
+      setRoadmap("../../../public/images/learnmin.png");
     }
   };
 
@@ -52,27 +52,27 @@ function Scope() {
       <div className="highlights-container">
         <div className="highlightbox">
           <p>Industry Standard Courses</p>
-          <img src="../../public/images/INTERN.png" alt=""></img>
+          <img src="../../../public/images/INTERN.png" alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Guaranteed Certificate on Completion</p>
-          <img src="../../public/images/Suitcase.png" alt=""></img>
+          <img src="../../../public/images/Suitcase.png" alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Guaranteed Internship</p>
-          <img src="../../public/images/MENTORSHIP.png" alt=""></img>
+          <img src="../../../public/images/MENTORSHIP.png" alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Personal Mentor</p>
-          <img src="../../public/images/SKILL.png" alt=""></img>
+          <img src="../../../public/images/SKILL.png" alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Industry Standard Projects</p>
-          <img src="../../public/images/INTERN.png" alt=""></img>
+          <img src="../../../public/images/INTERN.png" alt=""></img>
         </div>
         <div className="highlightbox">
           <p>24x7 Support Over Chat</p>
-          <img src="../../public/images/Chat.png" alt=""></img>
+          <img src="../../../public/images/Chat.png" alt=""></img>
         </div>
       </div>
       <h2>How does the Internship Program works?</h2>
