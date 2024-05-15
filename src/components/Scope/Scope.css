@@ -136,6 +136,12 @@
   font-weight: 600;
   line-height: 123.5%; /* 19.76px */
 }
+.howintern-container {
+  width: 100vw;
+  display: grid;
+    place-items: center;
+    /* border:2px solid red; */
+}
 .howintern {
   display: flex;
   flex-direction: column;
@@ -145,6 +151,7 @@
   /* background-color: black; */
   position: relative;
   overflow: hidden;
+  /* border: 2px solid black; */
 }
 .howintern-top {
   /* background-color: blue; */
@@ -215,7 +222,7 @@
     position: absolute;
     left:55px;
     margin: 0;
-    max-width: 25%;
+    max-width: 22%;
 }
 .circlebox2 p{
     position: absolute;
@@ -226,13 +233,13 @@
 .circlebox3 p{
     position: absolute;
     left:805px;
-    /* max-width: 30%; */
+    max-width: 25%;
     margin: 0;
 }
 .circlebox4 p{
     position: absolute;
     left:275px;
-    max-width: 22%;
+    max-width: 24%;
     margin: 0;
 }
 .circlebox5 p{
@@ -273,10 +280,35 @@
     border-bottom: 1px solid #9c8acc;
     transform: rotate(-40deg);
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 2000px) and (min-width: 1320px) {
+    .circlebox1 p{
+        max-width: 20%;
+    }
+    .circlebox2 p{
+        max-width: 20%;
+    }
+    .circlebox3 p{
+        max-width: 25%;
+    }
+    .circlebox4 p{
+        max-width: 15%;
+    }
+    .circlebox5 p{
+        max-width: 25%;
+    }
+    .howintern{
+        margin-left: 13%;
+    }
+}
+
+@media screen and (max-width: 1098px) {
   .howintern p{
     font-size: 12px;
   }
+  .circlebox3 p{
+    max-width: 100%;
+}
+
 }
 @media screen and (max-width: 768px) {
   .scopebox-container {

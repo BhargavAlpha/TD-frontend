@@ -85,6 +85,7 @@ function Scope() {
         </div>
       </div>
       <h2>How does the Internship Program works?</h2>
+      <div className="howintern-container">
       <div className="howintern">
         <div className="howintern-top">
         <div className="circlebox1">
@@ -218,6 +219,7 @@ function Scope() {
         <div className="line2"></div>
         <div className="line3"></div>
         <div className="line4"></div>
+      </div>
       </div>
       <button className="applyBtn2">Apply now for ₹2999</button>
     </div>
