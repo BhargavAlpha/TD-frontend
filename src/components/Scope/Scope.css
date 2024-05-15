@@ -1,3 +1,4 @@
+
 .scope-container {
   display: flex;
   flex-direction: column;
@@ -120,7 +121,84 @@
   font-weight: bold;
   cursor: pointer;
 }
+.howintern{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.howintern-top{
+    display: flex;
+    gap:2%;
+    align-items: center;
+    height: 50%;
+}
+.howintern-bottom{
+    display: flex;
+    gap:2%;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    /* height: 50%; */
+}
+.howintern p{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    display: inline;
+}
+.div1,.div2,.div3,.div4,.div5{
+    display: flex;
+    width: 33%;
+    gap:2%;
+    border:2px solid white;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+.howintern .div1::before {
+    content: '';
+    position: absolute;
+    top: 25px; /* Half of circle height */
+    left: calc(33.33% + 25px); /* Adjust for circle size and gap */
+    border: 2px solid white;
+    height: 100px; /* Adjust for distance between circles */
+    width: 2px;
+}
 
+.howintern .div2::before {
+    content: '';
+    position: absolute;
+    top: calc(25px + 100px); /* Half of circle height + distance between circles */
+    left: calc(66.66% + 25px); /* Adjust for circle size and gap */
+    border: 2px solid white;
+    height: 100px; /* Adjust for distance between circles */
+    width: 2px;
+}
+
+.howintern .div3::before {
+    content: '';
+    position: absolute;
+    top: calc(25px + 100px); /* Half of circle height + distance between circles */
+    left: calc(33.33% + 25px); /* Adjust for circle size and gap */
+    border: 2px solid white;
+    height: 100px; /* Adjust for distance between circles */
+    width: 2px;
+}
+
+.howintern .div4::before {
+    content: '';
+    position: absolute;
+    top: calc(25px + 100px + 100px); /* Half of circle height + distance between circles */
+    left: calc(66.66% + 25px); /* Adjust for circle size and gap */
+    border: 2px solid white;
+    height: 100px; /* Adjust for distance between circles */
+    width: 2px;
+}
 @media screen and (max-width: 768px) {
     .scopebox-container{
         width: 100%;

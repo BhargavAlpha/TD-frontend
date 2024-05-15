@@ -86,7 +86,32 @@ function Scope() {
         </div>
       </div>
       <h2>How does the Internship Program works?</h2>
-      <img src={roadmap} className="roadmap" alt=""></img>
+      <div className="howintern">
+        <div className="howintern-top">
+            <div className="div1">
+                <div className="circle"></div>
+                <p>Learn from our structured pre recorded courses made by experts to meet industry needs</p>
+            </div>
+            <div className="div2">
+                <div className="circle"></div>
+                <p>Personal mentors to guide and help you throughout your journey as a friend</p>
+            </div>
+            <div className="div3">
+                <div className="circle"></div>
+                <p>Get guaranteed paid internships after completion of the program along with course completion certificates</p>
+            </div>
+        </div>
+        <div className="howintern-bottom">
+            <div className="div4">
+                <div className="circle"></div>
+                <p>Get guaranteed paid internships after completion of the program along with course completion certificates</p>
+            </div>
+            <div className="div4">
+                <div className="circle"></div>
+                <p>Get guaranteed paid internships after completion of the program along with course completion certificates</p>
+            </div>
+        </div>
+      </div>
       <button className="applyBtn2">Apply now for ₹2999</button>
     </div>
   );

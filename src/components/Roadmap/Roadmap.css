@@ -1,3 +1,4 @@
+
 .roadmap-container h2{
     background: var(--Suggested-Tutedude-Logo-gradient, linear-gradient(180deg, #B872D0 0%, #372FAA 100%));
 background-clip: text;
@@ -55,15 +56,42 @@ line-height: 123.5%; /* 44.46px */
 .roadbox-top p{
     color: #5C2222;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-align: left;
+    max-width:70%;
 }
-.roadbox-top img{
+.roadbox-top .viewbtn{
+    border-radius: 10px;
+    width:70px;
+    position: relative;
     cursor: pointer;
-    height:40px;
+    padding-left: 3%;
+    
+        background-image: linear-gradient(to right, #800080, #800080 6.3%, rgba(128, 0, 128, 0.75) 6.3%, #800080 23%, rgba(128, 0, 128, 0.75) 29.2%, #800080 29.2%, rgba(128, 0, 128, 0.75) 47.97%, #800080 53.7%, rgba(128, 0, 128, 0.75) 53.7%, #800080 75.57%, rgba(128, 0, 128, 0.75) 79.74%, #800080);
+        /* Adjust the percentages as needed */
+    
+    height:38px;
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+.viewbtn-left{
+    height: 38px;
+    width: 38px;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to bottom, #0F0E0F, #7E267E);
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border-right: 2px solid white;
+
 }
 .other-container{
     margin-top: 50px;
@@ -111,20 +139,24 @@ text-align: center;
     /* align-items: center;
      */
      justify-content: center;
-    gap:10%;
+    gap:5%;
     padding: 0.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     width: 9rem;
-    height: 9rem;
+    height: 10rem;
 }
 .cap{
-    width:50px;
-    height: 50px;
+    width:46px;
+    height: 46px;
+    background-color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
 }
 .achievementbox p{
     font-family: Poppins;
-font-size: 14px;
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 123.5%; /* 17.29px */
