@@ -1,4 +1,3 @@
-
 .scope-container {
   display: flex;
   flex-direction: column;
@@ -6,7 +5,7 @@
   justify-content: center;
 }
 .scope-container h2 {
-    text-align: center;
+  text-align: center;
   font-family: Poppins;
   font-size: 36px;
   font-style: normal;
@@ -31,7 +30,7 @@
 .scopebox {
   display: flex;
   flex-direction: column;
-  gap:1rem;
+  gap: 1rem;
   padding: 1rem;
   width: 300px;
   border-radius: 10px;
@@ -56,12 +55,12 @@
   font-size: 24px;
 }
 .scopebox p:nth-child(2) {
-    color: #323232;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #323232;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .highlights-container {
   padding: 0.5rem;
@@ -75,7 +74,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:20%;
+  gap: 20%;
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 0.5px 10px 1.5px rgba(165, 130, 179, 0.22);
@@ -113,111 +112,191 @@
 
 .applyBtn2 {
   margin-top: 2rem;
-  background-color: #800080;
-  color: white;
-  padding: 0.8rem 1rem;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
+  display: flex;
+  width: 225px;
+  height: 50px;
+  padding: 15px 28px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
   cursor: pointer;
+  border-radius: 10px;
+  background: var(
+    --python-banner-gradient-hero-image,
+    linear-gradient(176deg, #800080 -2.53%, #7e267e 27.29%)
+  );
+  box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.15),
+    -1px 0px 4px 0px rgba(0, 0, 0, 0.15), 0px -1px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%; /* 19.76px */
 }
-.howintern{
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    width: 100%;
-    background-color: black;
+.howintern {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 95%;
+  /* margin-left: 10%; */
+  /* background-color: black; */
+  position: relative;
+  overflow: hidden;
 }
-.howintern-top{
-    display: flex;
-    gap:2%;
-    align-items: center;
-    height: 50%;
+.howintern-top {
+  /* background-color: blue; */
+  display: flex;
+
+  height: 50%;
+  position: relative;
 }
-.howintern-bottom{
-    display: flex;
-    gap:2%;
-    align-items: space-evenly;
-    justify-content: space-evenly;
-    /* height: 50%; */
+.howintern-bottom {
+  position: relative;
+  height: 50%;
+  display: flex;
 }
-.howintern p{
-    color: white;
-    font-size: 12px;
-    font-weight: 700;
+
+.circle1 {
+    position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
+  display: grid;
+  place-items: center;
+}
+.circle2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
+    left: 375px;
+
+  display: grid;
+  place-items: center;
+}
+.circle3 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
+  display: grid;
+  place-items: center;
+    left: 750px;
+}
+.circle4 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
+  position: absolute;
+  left:200px;
+  display: grid;
+  place-items: center;
+}
+.circle5 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
+  display: grid;
+  place-items: center;
+    left: 570px;
+    position:absolute;
+}
+
+
+.circlebox1 p{
+    position: absolute;
+    left:55px;
     margin: 0;
-    display: inline;
+    max-width: 25%;
 }
-.div1,.div2,.div3,.div4,.div5{
-    display: flex;
-    width: 33%;
-    gap:2%;
-    border:2px solid white;
-}
-.circle{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: white;
-}
-.howintern .div1::before {
-    content: '';
+.circlebox2 p{
     position: absolute;
-    top: 25px; /* Half of circle height */
-    left: calc(33.33% + 25px); /* Adjust for circle size and gap */
-    border: 2px solid white;
-    height: 100px; /* Adjust for distance between circles */
-    width: 2px;
+    left:435px;
+    margin: 0;
+    max-width: 23%;
+}
+.circlebox3 p{
+    position: absolute;
+    left:805px;
+    /* max-width: 30%; */
+    margin: 0;
+}
+.circlebox4 p{
+    position: absolute;
+    left:275px;
+    max-width: 22%;
+    margin: 0;
+}
+.circlebox5 p{
+    position: absolute;
+    left:650px;
+    max-width: 25%;
+    margin: 0;
 }
 
-.howintern .div2::before {
-    content: '';
-    position: absolute;
-    top: calc(25px + 100px); /* Half of circle height + distance between circles */
-    left: calc(66.66% + 25px); /* Adjust for circle size and gap */
-    border: 2px solid white;
-    height: 100px; /* Adjust for distance between circles */
-    width: 2px;
+.line1 {
+  width: 218px;
+  position: absolute;
+  top: 110px;
+  border-bottom: 1px solid #9c8acc;
+  transform: rotate(33deg);
 }
-
-.howintern .div3::before {
-    content: '';
-    position: absolute;
-    top: calc(25px + 100px); /* Half of circle height + distance between circles */
-    left: calc(33.33% + 25px); /* Adjust for circle size and gap */
-    border: 2px solid white;
-    height: 100px; /* Adjust for distance between circles */
-    width: 2px;
+.line2 {
+  width: 187px;
+  position: absolute;
+  top: 110px;
+  left: 230px;
+  border-bottom: 1px solid #9c8acc;
+  transform: rotate(-40deg);
 }
-
-.howintern .div4::before {
-    content: '';
+.line3 {
+  width: 203px;
+  position: absolute;
+  top: 105px;
+  left: 385px;
+  border-bottom: 1px solid #9c8acc;
+  transform: rotate(33deg);
+}
+.line4 {
+    width: 190px;
     position: absolute;
-    top: calc(25px + 100px + 100px); /* Half of circle height + distance between circles */
-    left: calc(66.66% + 25px); /* Adjust for circle size and gap */
-    border: 2px solid white;
-    height: 100px; /* Adjust for distance between circles */
-    width: 2px;
+    top: 110px;
+    left: 598px;
+    border-bottom: 1px solid #9c8acc;
+    transform: rotate(-40deg);
+}
+@media screen and (max-width: 1024px) {
+  .howintern p{
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 768px) {
-    .scopebox-container{
-        width: 100%;
-    }
-    .scopebox {
+  .scopebox-container {
+    width: 100%;
+  }
+  .scopebox {
     width: 75%;
-    }
-    .highlights-container{
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        padding: 0;
-}
+  }
+  .highlights-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+  }
   .highlightbox {
-    gap:10%;
+    gap: 10%;
     height: 160px;
   }
-  .highlightbox p{
-        font-size: 13px;
+  .highlightbox p {
+    font-size: 13px;
   }
   .roadmap {
     width: 80%;
@@ -227,9 +306,9 @@
   .highlightbox {
     width: 45%;
     height: 160px;
-    gap:3%;
+    gap: 3%;
   }
-    .highlightbox p{
-            font-size: 12px;
-    }
+  .highlightbox p {
+    font-size: 12px;
+  }
 }
