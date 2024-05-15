@@ -147,7 +147,11 @@
 }
 @media screen and (max-width: 480px) {
   .highlightbox {
-    width: 35%;
+    width: 45%;
     height: 160px;
+    gap:3%;
   }
+    .highlightbox p{
+            font-size: 12px;
+    }
 }
