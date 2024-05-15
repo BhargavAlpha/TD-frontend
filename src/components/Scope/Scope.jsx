@@ -1,16 +1,26 @@
 import React from "react";
 import "./Scope.css";
 import { useState, useEffect } from "react";
+import learnmax from '../../assets/learnmax.png'
+import learnmin from '../../assets/learnmin.png'
+import intern from '../../assets/intern.png'
+import suitcase from '../../assets/suitcase.png'
+import mentor from '../../assets/mentor.png'
+import skill from '../../assets/skill.png'
+import chat from '../../assets/chat.png'
+import certificate from '../../assets/certificate.png'
+
+
 function Scope() {
   const [roadmap, setRoadmap]= useState("");
   const setImageBasedOnScreenSize = () => {
     const screenSize = window.innerWidth;
     if (screenSize > 768) {
-      setRoadmap("../../../public/images/learnmax.png");
+      setRoadmap(learnmax);
     } else if (screenSize > 480) {
-      setRoadmap("../../../public/images/learnmin.png");
+      setRoadmap(learnmin);
     } else {
-      setRoadmap("../../../public/images/learnmin.png");
+      setRoadmap(learnmin);
     }
   };
 
@@ -52,32 +62,32 @@ function Scope() {
       <div className="highlights-container">
         <div className="highlightbox">
           <p>Industry Standard Courses</p>
-          <img src="../../../public/images/INTERN.png" alt=""></img>
+          <img src={intern} alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Guaranteed Certificate on Completion</p>
-          <img src="../../../public/images/Suitcase.png" alt=""></img>
+          <img src={certificate} alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Guaranteed Internship</p>
-          <img src="../../../public/images/MENTORSHIP.png" alt=""></img>
+          <img src={suitcase} alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Personal Mentor</p>
-          <img src="../../../public/images/SKILL.png" alt=""></img>
+          <img src={mentor} alt=""></img>
         </div>
         <div className="highlightbox">
           <p>Industry Standard Projects</p>
-          <img src="../../../public/images/INTERN.png" alt=""></img>
+          <img src={skill} alt=""></img>
         </div>
         <div className="highlightbox">
           <p>24x7 Support Over Chat</p>
-          <img src="../../../public/images/Chat.png" alt=""></img>
+          <img src={chat}alt=""></img>
         </div>
       </div>
       <h2>How does the Internship Program works?</h2>
       <img src={roadmap} className="roadmap" alt=""></img>
-      <button className="applyBtn">Apply now for ₹2999</button>
+      <button className="applyBtn2">Apply now for ₹2999</button>
     </div>
   );
 }

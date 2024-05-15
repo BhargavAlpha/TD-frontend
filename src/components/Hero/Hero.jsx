@@ -1,5 +1,7 @@
 import React from "react";
 import "./Hero.css";
+import gear from '../../assets/gear.png'
+import seal from '../../assets/seal.png'
 function Hero() {
   return (
     <div className="hero-container">
@@ -10,7 +12,7 @@ function Hero() {
           <div className="box">
             <p className="row1">Learning Format</p>
             <p className="row2">RECORDED LECTURES</p>
-            <p className="row3">with 1:1 mentorship</p>
+            <p className="row3">with <br/> 1:1 mentorship</p>
           </div>
           <div className="box">
             <p className="row1">Course Duration</p>
@@ -32,20 +34,6 @@ function Hero() {
           </div>
         </div>
       </div>
-
-      <div className="hero-bottom">
-        <img
-          src="../../public/images/Gear.png"
-          className="gear-div"
-          alt=""
-        ></img>
-        <div className="seal-container">
-           <p >India’s 1st Stipend Guranteed Internship Programme</p>
-           <button className="applyBtn">Apply now for ₹2999</button>
-           <img src="../../../public/images/seal.png" className="seal" alt=""></img>
-      </div>
-      <div className="promise-text"><p>We at Tutedude, are helping our learners get the max value while acquiring the new valuable skills with our new </p><h4>VALUE GUARANTEED INETERNSHIP PROGRAMME</h4></div>
-    </div>
   </div>
   );
 }

@@ -1,0 +1,183 @@
+.hero-bottom {
+  padding-left: 10%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+}
+
+.gear-div {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  transform: translateY(-60%);
+}
+.seal-container {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.leading-text {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /* border: 2px solid red; */
+  gap: 30px;
+}
+.leading-text p {
+  background: var(
+    --Suggested-Tutedude-Logo-gradient,
+    linear-gradient(180deg, #b872d0 0%, #372faa 100%)
+  );
+  padding-top: 5%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-align: justify; */
+  font-family: Poppins;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.seal-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.seal-div img {
+  width: 287px;
+  height: 287px;
+  margin-right: 40%;
+}
+
+.leading-text .applyBtn {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%; /* 22.23px */
+  display: flex;
+  width: 322px;
+  height: 60px;
+  padding: 5px 66px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(
+    --python-banner-gradient-hero-image,
+    linear-gradient(176deg, #800080 -2.53%, #7e267e 27.29%)
+  );
+  box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.15),
+    -1px 0px 4px 0px rgba(0, 0, 0, 0.15), 0px -1px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.promise-text {
+  font-size: 24px;
+  text-align: center;
+  background: var(
+    --Scope-of-the-Program,
+    linear-gradient(180deg, #0f0e0f 0%, #7e267e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.promise-text p {
+  display: inline;
+  margin: 0;
+}
+.promise-text h4 {
+  margin: 0;
+  display: inline;
+  color: #591e59;
+}
+@media screen and (min-width: 768px) and (max-width: 1223px) {
+  .leading-text {
+    width: 80%;
+  }
+  .leading-text p {
+    font-size: 57px;
+  }
+  .hero-bottom {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-bottom {
+    padding: 0;
+    margin: 0;
+  }
+  .seal-container {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .leading-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid /red; */
+  }
+  .leading-text p {
+    font-size: 50px;
+    text-align: center;
+  }
+  .gear-div {
+    transform: translateY(-90%);
+    width: 100px;
+    height: 100px;
+  }
+  .seal-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    /* margin-top: 10%; */
+  }
+  .seal-div img {
+    width: 287px;
+    height: 287px;
+    margin-right: 0;
+  }
+  .leading-text .applyBtn {
+    display: flex;
+    width: 60%;
+    height: 50px;
+    padding: 15px 28px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 16px;
+  }
+  .promise-text {
+    color: #000;
+text-align: justify;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 5%;
+margin-right: 5%;
+  }
+}

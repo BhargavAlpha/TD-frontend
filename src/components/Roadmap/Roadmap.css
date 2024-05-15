@@ -1,10 +1,16 @@
 .roadmap-container h2{
-    color:#AB6BCC;
-    font-weight: bolder;
+    background: var(--Suggested-Tutedude-Logo-gradient, linear-gradient(180deg, #B872D0 0%, #372FAA 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 123.5%; /* 44.46px */
 }
-.roadmap-container h2 .highlighted {
-    color: #4D3AB0 !important;
-} 
 
 .roadbox-container{
     display: flex;
@@ -47,10 +53,13 @@
 }
 
 .roadbox-top p{
+    color: #5C2222;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     text-align: left;
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight:bold ;
 }
 .roadbox-top img{
     cursor: pointer;
@@ -73,12 +82,16 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 17rem;
+    padding-top: 0;;
 }
 .otherbox p:first-child{
-    color:#5C2222;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
+    color: #5C2222;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 121%; /* 29.04px */
+text-align: center;
 }
 .otherbox p:nth-child(2){
     margin: 0;
@@ -95,12 +108,44 @@
     background-color: #F1D7E7;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+    /* align-items: center;
+     */
+     justify-content: center;
+    gap:10%;
     padding: 0.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     width: 9rem;
+    height: 9rem;
+}
+.cap{
+    width:50px;
+    height: 50px;
+}
+.achievementbox p{
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 123.5%; /* 17.29px */
+background: var(--Scope-of-the-Program, linear-gradient(180deg, #0F0E0F 0%, #7E267E 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0;
+}
+.achievementbox h2{
+    background: var(--Scope-of-the-Program, linear-gradient(180deg, #0F0E0F 0%, #7E267E 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 123.5%; /* 44.46px */
+margin: 0;
+text-align: left;
 }
 
 @media screen and (max-width: 768px){
@@ -111,5 +156,9 @@
     }
     .path-img{
         display: none;
+    }
+
+    .otherbox{
+        width: 65%;
     }
 }
