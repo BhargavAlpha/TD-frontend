@@ -139,8 +139,8 @@
 .howintern-container {
   width: 100vw;
   display: grid;
-    place-items: center;
-    /* border:2px solid red; */
+  place-items: center;
+  /* border:2px solid red; */
 }
 .howintern {
   display: flex;
@@ -167,7 +167,7 @@
 }
 
 .circle1 {
-    position: absolute;
+  position: absolute;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -181,7 +181,7 @@
   width: 50px;
   border-radius: 50%;
   border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
-    left: 375px;
+  left: 375px;
 
   display: grid;
   place-items: center;
@@ -194,7 +194,7 @@
   border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
   display: grid;
   place-items: center;
-    left: 750px;
+  left: 750px;
 }
 .circle4 {
   height: 50px;
@@ -202,7 +202,7 @@
   border-radius: 50%;
   border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
   position: absolute;
-  left:200px;
+  left: 200px;
   display: grid;
   place-items: center;
 }
@@ -213,40 +213,39 @@
   border: 1px solid var(--New-Dashboard-Gradient, rgba(63, 55, 201, 0.74));
   display: grid;
   place-items: center;
-    left: 570px;
-    position:absolute;
+  left: 570px;
+  position: absolute;
 }
 
-
-.circlebox1 p{
-    position: absolute;
-    left:55px;
-    margin: 0;
-    max-width: 22%;
+.circlebox1 p {
+  position: absolute;
+  left: 55px;
+  margin: 0;
+  max-width: 22%;
 }
-.circlebox2 p{
-    position: absolute;
-    left:435px;
-    margin: 0;
-    max-width: 23%;
+.circlebox2 p {
+  position: absolute;
+  left: 435px;
+  margin: 0;
+  max-width: 23%;
 }
-.circlebox3 p{
-    position: absolute;
-    left:805px;
-    max-width: 25%;
-    margin: 0;
+.circlebox3 p {
+  position: absolute;
+  left: 805px;
+  max-width: 25%;
+  margin: 0;
 }
-.circlebox4 p{
-    position: absolute;
-    left:275px;
-    max-width: 24%;
-    margin: 0;
+.circlebox4 p {
+  position: absolute;
+  left: 275px;
+  max-width: 24%;
+  margin: 0;
 }
-.circlebox5 p{
-    position: absolute;
-    left:650px;
-    max-width: 25%;
-    margin: 0;
+.circlebox5 p {
+  position: absolute;
+  left: 650px;
+  max-width: 25%;
+  margin: 0;
 }
 
 .line1 {
@@ -273,74 +272,186 @@
   transform: rotate(33deg);
 }
 .line4 {
-    width: 190px;
+  width: 190px;
+  position: absolute;
+  top: 110px;
+  left: 598px;
+  border-bottom: 1px solid #9c8acc;
+  transform: rotate(-40deg);
+}
+.howinternmob-container {
+  width: 100vw;
+  /* height: 900px; */
+  display: grid;
+  place-items: center;
+  /* border: 2px solid red; */
+}
+.howinternmob {
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+  height: 100%;
+  width: 95%;
+  /* border: 2px solid black; */
+}
+.mobdiv {
+  overflow: hidden;
+  height: 120px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+}
+.mob-circle {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 101px;
+  border: 1px solid #000;
+  background: var(
+    --mobile-landing-page-top-screen-gradient,
+    linear-gradient(
+      86deg,
+      rgba(128, 0, 128, 0.1) -133.64%,
+      rgba(128, 0, 128, 0.08) -63.21%,
+      rgba(128, 0, 128, 0.08) -63.21%,
+      rgba(128, 0, 128, 0.08) -63.19%,
+      rgba(128, 0, 128, 0.07) -47.37%,
+      rgba(128, 0, 128, 0.06) -4.24%,
+      rgba(128, 0, 128, 0.05) 34.58%,
+      rgba(128, 0, 128, 0.02) 41.77%,
+      rgba(128, 0, 128, 0.01) 79.16%,
+      rgba(128, 0, 128, 0) 89.22%,
+      rgba(128, 0, 128, 0) 105.04%,
+      rgba(128, 0, 128, 0) 122.29%,
+      rgba(128, 0, 128, 0) 130.92%,
+      rgba(128, 0, 128, 0) 130.92%,
+      rgba(128, 0, 128, 0) 130.95%
+    )
+  );
+  display: grid;
+  place-items: center;
+}
+.mobdiv p {
+  left: 90px;
+  position: absolute;
+  color: #150e42;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.mobline1{
+        position: absolute;
+        bottom: 455px;
+        left: 35px;
+        width: 2.5px; 
+        height:50px; 
+        background-color: black; /
+}
+.mobline2{
     position: absolute;
-    top: 110px;
-    left: 598px;
-    border-bottom: 1px solid #9c8acc;
-    transform: rotate(-40deg);
+        bottom:335px;
+        left: 35px;
+        width: 2.5px; 
+        height:50px; 
+        background-color: black; /
+}
+.mobline3{
+    position: absolute;
+        bottom: 215px;
+        left: 35px;
+        width: 2.5px; 
+        height:50px; 
+        background-color: black; /
+}
+.mobline4{
+    position: absolute;
+        bottom: 95px;
+        left: 35px;
+        width: 2.5px; 
+        height:50px; 
+        background-color: black; /
 }
 @media screen and (max-width: 2000px) and (min-width: 1320px) {
-    .circlebox1 p{
-        max-width: 20%;
-    }
-    .circlebox2 p{
-        max-width: 20%;
-    }
-    .circlebox3 p{
-        max-width: 25%;
-    }
-    .circlebox4 p{
-        max-width: 15%;
-    }
-    .circlebox5 p{
-        max-width: 25%;
-    }
-    .howintern{
-        margin-left: 13%;
-    }
+  .circlebox1 p {
+    max-width: 20%;
+  }
+  .circlebox2 p {
+    max-width: 20%;
+  }
+  .circlebox3 p {
+    max-width: 25%;
+  }
+  .circlebox4 p {
+    max-width: 20%;
+  }
+  .circlebox5 p {
+    max-width: 25%;
+  }
+  .howintern {
+    margin-left: 13%;
+  }
+}
+@media screen and (max-width: 1320px) and (min-width: 1098px) {
+  .howintern {
+    margin-left: 5%;
+  }
 }
 
 @media screen and (max-width: 1098px) {
-  .howintern p{
+  .howintern p {
     font-size: 12px;
   }
-  .circlebox3 p{
+  .circlebox3 p {
     max-width: 100%;
-}
-
-}
-@media screen and (max-width: 768px) {
-  .scopebox-container {
-    width: 100%;
   }
-  .scopebox {
-    width: 75%;
+  @media screen and (max-width: 1098px) {
+    .howintern p {
+      font-size: 7px;
+    }
+    .circlebox3 p {
+      max-width: 100%;
+    }
   }
-  .highlights-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 0;
+  
+  @media screen and (max-width: 768px) {
+    .howintern-container {
+      display: none;
+    }
+    .scopebox-container {
+      width: 100%;
+    }
+    .scopebox {
+      width: 75%;
+    }
+    .highlights-container {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 0;
+    }
+    .highlightbox {
+      gap: 10%;
+      height: 160px;
+    }
+    .highlightbox p {
+      font-size: 13px;
+    }
+    .roadmap {
+      width: 80%;
+    }
   }
-  .highlightbox {
-    gap: 10%;
-    height: 160px;
-  }
-  .highlightbox p {
-    font-size: 13px;
-  }
-  .roadmap {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .highlightbox {
-    width: 45%;
-    height: 160px;
-    gap: 3%;
-  }
-  .highlightbox p {
-    font-size: 12px;
+  @media screen and (max-width: 480px) {
+    .highlightbox {
+      width: 45%;
+      height: 160px;
+      gap: 3%;
+    }
+    .highlightbox p {
+      font-size: 12px;
+    }
   }
 }
